@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <p id="one">Good morning</p>
+    <script>
+        var para=document.getElementById("one")
+        console.log(para.textContent)
+        para.textContent="Good evening"
+
+    </script> -->
+    <!-- <h1 id="title">Hello world</h1>
+    <button onclick="change()">Change</button>
+    <script>
+        var head=document.getElementById("title")
+        console.log(head.textContent)
+        
+        function change(){
+            head.textContent="Hello girls"
+
+        }
+    </script> -->
+    <!-- <input id="one" value="2" >
+    <input id="two" value="3"> -->
+    <input id="one" >
+    <input id="two" >
+    <button onclick="resss()">Add</button>
+    <p id="result">Result</p>
+
+    <script>
+        var num1=document.getElementById("one")
+        var num2=document.getElementById("two")
+        var result=document.getElementById("result")
+        
+        
+        
+
+        function resss(){
+            var box1value=Number(num1.value) 
+            var box2value=Number(num2.value) 
+            var total=box1value+box2value
+            
+            result.textContent=total
+         }
+    </script>
+</body>
+</html>
